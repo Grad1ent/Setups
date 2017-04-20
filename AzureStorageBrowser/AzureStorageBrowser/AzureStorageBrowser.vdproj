@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:AzureStorageBrowser"
+"ProjectName" = "8:Azure Storage Browser"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -13,6 +13,12 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_10F1B470AD833D137655A012E4BD57A4"
+        "OwnerKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
         "Entry"
         {
         "MsmKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
@@ -40,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
-        "OwnerKey" = "8:_9512CED068464C06BFF1AE94D9335844"
+        "OwnerKey" = "8:_6D249878F14C483F8F3F7F454BB1F189"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -51,7 +57,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9512CED068464C06BFF1AE94D9335844"
+        "MsmKey" = "8:_6D249878F14C483F8F3F7F454BB1F189"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -69,20 +75,44 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5A82EF2170E33AC392E1F05AE2711088"
+        "MsmKey" = "8:_C859BB82642FE811D78A3E921CA71463"
+        "OwnerKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F495FD42AEE16D84276650871CAEB03F"
+        "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F495FD42AEE16D84276650871CAEB03F"
+        "OwnerKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9512CED068464C06BFF1AE94D9335844"
+        "OwnerKey" = "8:_10F1B470AD833D137655A012E4BD57A4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6D249878F14C483F8F3F7F454BB1F189"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C859BB82642FE811D78A3E921CA71463"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -95,6 +125,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F495FD42AEE16D84276650871CAEB03F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5A82EF2170E33AC392E1F05AE2711088"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -115,6 +157,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -131,6 +189,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -160,11 +234,42 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_10F1B470AD833D137655A012E4BD57A4"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_10F1B470AD833D137655A012E4BD57A4"
+                    {
+                    "Name" = "8:Microsoft.Azure.KeyVault.Core.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Azure.KeyVault.Core.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_28F0A3F2920BC7F4F8E16E122ED1F131"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Data.Services.Client, Version=5.6.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Data.Services.Client, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_28F0A3F2920BC7F4F8E16E122ED1F131"
@@ -195,7 +300,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Data.Edm, Version=5.6.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Data.Edm, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_5A82EF2170E33AC392E1F05AE2711088"
@@ -226,7 +331,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAzure.Storage, Version=4.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAzure.Storage, Version=8.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_5C5344B51AD747BA583731BD683BF1CB"
@@ -273,14 +378,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9512CED068464C06BFF1AE94D9335844"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6D249878F14C483F8F3F7F454BB1F189"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.3, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9512CED068464C06BFF1AE94D9335844"
+                    "_6D249878F14C483F8F3F7F454BB1F189"
                     {
                     "Name" = "8:AzureStorageBrowser.exe"
                     "Attributes" = "3:512"
@@ -308,7 +413,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Data.OData, Version=5.6.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Data.OData, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_C760280503840A882DB180F5E31716EF"
@@ -318,6 +423,68 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.Data.OData.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C859BB82642FE811D78A3E921CA71463"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C859BB82642FE811D78A3E921CA71463"
+                    {
+                    "Name" = "8:Newtonsoft.Json.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F495FD42AEE16D84276650871CAEB03F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Spatial, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F495FD42AEE16D84276650871CAEB03F"
+                    {
+                    "Name" = "8:System.Spatial.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Spatial.DLL"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
@@ -350,17 +517,6 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_4F2C927FF1D243E6BC466DCD854864BE"
-                    {
-                    "Name" = "8:wojciech@pazdzierkiewicz.pl"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_E932FF027EE84A7287F84EB3D8C4A28C"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_56B79C9AE4B84C02BE9F80532029C4F8"
@@ -401,9 +557,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:AzureStorageBrowser"
-        "ProductCode" = "8:{BE896727-5EE4-4E7B-A965-645FD00F74F8}"
-        "PackageCode" = "8:{8008F5C4-D1C7-48E6-BD73-E676B1A84B61}"
+        "ProductName" = "8:Azure Storage Browser"
+        "ProductCode" = "8:{08E819FF-EDE2-41E2-8C26-1D3E66AD0563}"
+        "PackageCode" = "8:{5569B376-F6D0-4C9E-890B-19961890A6C3}"
         "UpgradeCode" = "8:{0721E68C-99C5-4EE6-846A-B4E83578D3C7}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -414,7 +570,7 @@
         "Manufacturer" = "8:wojciech@pazdzierkiewicz.pl"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:AzureStorageBrowser"
+        "Title" = "8:Azure Storage Browser"
         "Subject" = "8:"
         "ARPCONTACT" = "8:wojciech@pazdzierkiewicz.pl"
         "Keywords" = "8:Azure, Storage, Browser"
@@ -523,30 +679,30 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1F2163709524472FA03F682911E1A741"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_52DE30726DD64259A85810B01FD4BAF4"
             {
-            "Name" = "8:AzureStorageBrowser"
+            "Name" = "8:Azure Storage Browser"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9512CED068464C06BFF1AE94D9335844"
-            "Folder" = "8:_4F2C927FF1D243E6BC466DCD854864BE"
+            "Target" = "8:_6D249878F14C483F8F3F7F454BB1F189"
+            "Folder" = "8:_60808B4EC89A43AF98DA31B91BE2A060"
             "WorkingFolder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
             "Icon" = "8:_5F17585B81344A94BDD06BA9E4EFA786"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_29096D8A5EEE45C79AD327AA9E5BE467"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_90ABC68A53F5490C8F4C6EF0EBDA7957"
             {
-            "Name" = "8:AzureStorageBrowser"
+            "Name" = "8:Azure Storage Browser"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9512CED068464C06BFF1AE94D9335844"
-            "Folder" = "8:_60808B4EC89A43AF98DA31B91BE2A060"
+            "Target" = "8:_6D249878F14C483F8F3F7F454BB1F189"
+            "Folder" = "8:_3380E7E84685490389934B232E4460DB"
             "WorkingFolder" = "8:_56B79C9AE4B84C02BE9F80532029C4F8"
             "Icon" = "8:_5F17585B81344A94BDD06BA9E4EFA786"
             "Feature" = "8:"
