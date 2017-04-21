@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_5A82EF2170E33AC392E1F05AE2711088"
-        "OwnerKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
+        "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5A82EF2170E33AC392E1F05AE2711088"
-        "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
+        "OwnerKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -100,31 +100,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C859BB82642FE811D78A3E921CA71463"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F495FD42AEE16D84276650871CAEB03F"
+        "OwnerKey" = "8:_10F1B470AD833D137655A012E4BD57A4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,7 +112,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_10F1B470AD833D137655A012E4BD57A4"
+        "OwnerKey" = "8:_F495FD42AEE16D84276650871CAEB03F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C760280503840A882DB180F5E31716EF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_28F0A3F2920BC7F4F8E16E122ED1F131"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C859BB82642FE811D78A3E921CA71463"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5C5344B51AD747BA583731BD683BF1CB"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -241,11 +241,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_10F1B470AD833D137655A012E4BD57A4"
-                    {
-                    "Name" = "8:Microsoft.Azure.KeyVault.Core.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Azure.KeyVault.Core.DLL"
             "TargetName" = "8:"
@@ -272,11 +267,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Data.Services.Client, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_28F0A3F2920BC7F4F8E16E122ED1F131"
-                    {
-                    "Name" = "8:Microsoft.Data.Services.Client.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Data.Services.Client.DLL"
             "TargetName" = "8:"
@@ -303,11 +293,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Data.Edm, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5A82EF2170E33AC392E1F05AE2711088"
-                    {
-                    "Name" = "8:Microsoft.Data.Edm.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Data.Edm.DLL"
             "TargetName" = "8:"
@@ -334,11 +319,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.WindowsAzure.Storage, Version=8.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5C5344B51AD747BA583731BD683BF1CB"
-                    {
-                    "Name" = "8:Microsoft.WindowsAzure.Storage.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.WindowsAzure.Storage.DLL"
             "TargetName" = "8:"
@@ -382,7 +362,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.5, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.6, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_6D249878F14C483F8F3F7F454BB1F189"
@@ -416,11 +396,6 @@
             "AssemblyAsmDisplayName" = "8:Microsoft.Data.OData, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C760280503840A882DB180F5E31716EF"
-                    {
-                    "Name" = "8:Microsoft.Data.OData.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Microsoft.Data.OData.DLL"
             "TargetName" = "8:"
@@ -447,11 +422,6 @@
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C859BB82642FE811D78A3E921CA71463"
-                    {
-                    "Name" = "8:Newtonsoft.Json.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Newtonsoft.Json.DLL"
             "TargetName" = "8:"
@@ -478,11 +448,6 @@
             "AssemblyAsmDisplayName" = "8:System.Spatial, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F495FD42AEE16D84276650871CAEB03F"
-                    {
-                    "Name" = "8:System.Spatial.DLL"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Spatial.DLL"
             "TargetName" = "8:"
