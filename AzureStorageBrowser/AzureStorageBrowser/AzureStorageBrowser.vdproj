@@ -382,7 +382,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.4, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AzureStorageBrowser, Version=0.0.1.5, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_6D249878F14C483F8F3F7F454BB1F189"
